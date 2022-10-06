@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+.page-headings {
+  font-size: 4rem;
+  font-weight: 600;
+  color: orange;
+  margin-bottom: 0px;
+}
+
+.number-of-countries {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0.2rem;
+  color: #747474;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+.country-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 12;
+  padding: 1rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 200px;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.country-flag {
+  width: 160px;
+  height: auto;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.country-flag img {
+  width: 100%;
+  height: auto;
+}
+
+.country-name {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.country-other-details {
+  font-size: 1.1rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+.country-other-details div {
+  padding: 0.25rem 0rem;
+}
+
+.country-other-details span {
+  color: #616161;
+  font-weight: 600;
+}
